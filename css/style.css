@@ -92,10 +92,6 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	font-weight:bolder;
 	font-size:1.2em;
 }
-.bannerhead h2 span,.typing{
-	color:black;
-	
-}
 .bannerhead h3{
 	color:#281D24;
 	font-weight:bolder;
@@ -298,7 +294,7 @@ a.portdown{
 .footer{
 	background: url(../images/footerbg.jpg);
 	position: relative;
-	min-height: 900px;
+	min-height: 567px;
 	background-size: cover;
 	position:relative;
 }
@@ -334,19 +330,19 @@ a.portdown{
 }
 .footer-left p{
 	color:#B5A9B7;
-	width:100%;
+	width:80%;
 	margin:2em 0 0 0em;
 	line-height:2em;
 }
 .footer-right{
-	text-align: center;
+	text-align: right;
 	margin-top: 1.3em;
 }
 .footer-right input[type="text"],.footer-right textarea{
 	background:#170F12;
 	color:#B5A9B7;
 	padding: 1em 0.8em;
-	width:100%;
+	width:75%;
 	margin-bottom:1em;
 	outline:none;
 	border: solid 1.5px;
@@ -360,8 +356,8 @@ a.portdown{
 	color:#B5A9B7;
 }
 .footer-right input[type="submit"]{
-	text-align:left;
-	float:center;
+	text-align:center;
+	float:right;
 	color:#D2D1D1;
 	font-size:1.2em;
 	outline:none;
@@ -411,7 +407,7 @@ p.copy-right a{
 		margin: 2em 0em 0 0em;
 	}
 	.footer-left p {
-		width: 100%;
+		width: 90%;
 	}
 }
 @media (max-width:1024px){
@@ -425,7 +421,7 @@ p.copy-right a{
 		margin: 2em 0em 0 0em;
 	}
 	.footer-left p {
-		width: 100%;
+		width: 90%;
 	}
 	.banner-info {
 		width: 80%;
@@ -461,7 +457,7 @@ p.copy-right a{
 		margin: 2em 0em 0 0em;
 	}
 	.footer-left p {
-		width: 100%;
+		width: 90%;
 	}
 	.banner-info {
 		width: 80%;
@@ -543,7 +539,7 @@ p.copy-right a{
 		margin: 2em 0em 0 0em;
 	}
 	.footer-left p {
-		width: 100%;
+		width: 90%;
 	}
 	.banner-info {
 		width: 80%;
@@ -900,9 +896,4 @@ p.copy-right a{
 		float: none;
 		width:100%
 	}
-}
-.map {
-    width: 100%;
-    height:220px;
-    border: 1px solid #24b662;
 }
