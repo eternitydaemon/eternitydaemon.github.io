@@ -8,11 +8,14 @@ Author: Subhasis Banik
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"</script>
   	<script src="js/move-top.js"></script>
 	<script src="js/easing.js"></script>
-	<script src="js/index.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script src="js/index.js"></script> -->
 
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /> -->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" href="css/circle.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> -->
@@ -32,7 +35,8 @@ Author: Subhasis Banik
 					 <ul>
 						 <li><a class="scroll" href="#about">ABOUT</a></li>
 						 <li><a class="scroll" href="#skills">SKILLS</a></li>
-						 <li><a class="scroll" href="#port">PORTFOLIO</a></li>
+						 <li><a class="scroll" href="#port">CERTIFICATIONS</a></li>
+						 <li><a class="scroll" href="#contact">BLOG</a></li>
 						 <li><a class="scroll" href="#contact">CONTACT</a></li>
 					 </ul>
 				 </div>
@@ -70,7 +74,7 @@ Author: Subhasis Banik
 			   <div class="header-section text-center">
 				  <h2><span> </span>ABOUT<span> </span></h2>
 				  </div>
-				 <span><p>I am a full stack developer with experience in building MEAN stack based applications. I have also worked in developing web based applications for banking clients using Java/J2EE. I am also the author of <a href="www.subhasisbanik.com/blog">Learn with Subhasis</a></p></span>
+				 <span><p>I am a full stack developer with experience in building MEAN stack based applications. I have also worked in developing web based applications for banking clients using Java/J2EE. I am also the author of <a id="blogUrl" href="www.subhasisbanik.com/blog">Learn with Subhasis</a></p></span>
 					 
 			  <div class="years">	 
 				<h4><b>2017</b></h4>
@@ -79,21 +83,20 @@ Author: Subhasis Banik
 			  </div> 
 				
 			  <div class="years">	 		
-				 <h4><b>2012</b></h4>
-				 <span><h4>Manager Delta Coders</h4></span>
-				 <p><i>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</i></p>
+				 <h4><b>2013</b></h4>
+				 <span><h4>B.Tech(C.S.E) from West Bengal University of Technology, India</h4></span>
+				 <p><i>Completed Bachelor of Technology in Computer Science Engineering from one of the private institutes in West Bengal with first class GPA</i></p>
 			  </div> 
 					
-			   <div class="years">	 	
-				 <h4><b>2013</b></h4>
+			   <!-- <div class="years">	 	
+				 <h4><b>2009</b></h4>
 				 <span><h4>Owner Alternative Labs</h4></span>
 				 <div class="labs">
 					 <p><i>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
 						lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.
 						sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec teltus</i></p>
 			     </div>
-			  </div>
+			  </div> -->
 				 <a class="arrow scroll" href="#skills"><span> </span></a>
 		  </div>
 	  </div>
@@ -109,58 +112,100 @@ Author: Subhasis Banik
 					  <div class="services_grids">
 						  <div id="canvas">
 								<div class="skill-grids text-center">
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-1"></div>									
-												 <h3>MySql</h3>	
-											 </div>								  
+									<div class="row">
+											<div class="col-md-6">	
+												<div class="progress">
+										            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+										            </div>
+										            <span class="progress-type">Java 7</span>
+										            
+										        </div>						  
+											</div>
+											<div class="col-md-6">	
+												<div class="progress">
+										            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+										            </div>
+										            <span class="progress-type">Angular JS</span>
+										            
+										        </div>						  
+											</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									            </div>
+									            <span class="progress-type">NodeJS</span>
+									            
+									        </div>						  
 										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-2"></div>									
-												 <h3>AJAX</h3>	
-											 </div>								  
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									            </div>
+									            <span class="progress-type">HTML</span>
+									            
+									        </div>						  
 										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-3"></div>									
-												 <h3>PHP</h3>	
-											 </div>								  
+									</div>
+									<div class="row">
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+									            </div>
+									            <span class="progress-type">CSS</span>
+									            
+									        </div>						  
 										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-4"></div>									
-												 <h3>JAVASCRIPT</h3>	
-											 </div>								  
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									            </div>
+									            <span class="progress-type">MySQL</span>
+									            
+									        </div>						  
 										</div>
-										<div class="clearfix"> </div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									            </div>
+									            <span class="progress-type">MongoDB</span>
+									            
+									        </div>						  
+										</div>
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									            </div>
+									            <span class="progress-type">Hibernate</span>
+									            
+									        </div>						  
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									            </div>
+									            <span class="progress-type">Spring MVC</span>
+									            
+									        </div>						  
+										</div>
+										<div class="col-md-6">	
+											<div class="progress">
+									            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									            </div>
+									            <span class="progress-type">myBatis</span>
+									            
+									        </div>						  
+										</div>
+									</div>
+									<div class="clearfix"> </div>
 								  </div>
 						   </div>
 					  </div>
-					<!---->
-					 <script type="text/javascript" src="js/circles.js"></script>
-								 <script>
-									var colors = [
-											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']
-										];
-									for (var i = 1; i <= 5; i++) {
-										var child = document.getElementById('circles-' + i),
-											percentage = 50 + (i * 10);
-											
-										Circles.create({
-											id:         child.id,
-											percentage: percentage,
-											radius:     80,
-											width:      15,
-											number:   	percentage / 10,
-											text:       '%',
-											colors:     colors[i - 1]
-										});
-									}
-							
-					</script>
-					
-					<!--/-->
 			 </div>
 		 </div>
 		   <a class="down scroll" href="#port"><span> </span></a>
@@ -170,15 +215,15 @@ Author: Subhasis Banik
 		 <!-- ----PORTFOLIO Starts------- -->
 		 <div id="port" class="Portfolio">
 			  <div class="Portfolio-section text-center">
-			      <h2><span> </span>PORTFOLIO<span> </span></h2>
+			      <h2><span> </span>CERTIFICATIONS<span> </span></h2>
 			  </div>
 			  <div class="container">
 				  <div class="portfolio-grids">
 					  <div class="portfolio-grid col-md-4">
-						 <a href="#"><img src="images/monitr1.png"></a>
+						 <!-- <a href="#"><img src="images/monitr1.png"></a> -->
 						  <p>Proin gravida nibh vel velit auctor aliquet.
 							 Aenean sollicitudin, lorem quis bibendum</p>
-						  <a class="rightarrow" href="#"><span> </span></a>
+						  <!-- <a class="rightarrow" href="#"><span> </span></a> -->
 					  </div>
 					  <div class="portfolio-grid col-md-4">
 						  <a href="#"><img src="images/monitr2.png"></a>
@@ -238,7 +283,7 @@ Author: Subhasis Banik
 				 </div>
 				  </div>
 				  <div class="clear"></div>
-				  <p class="copy-right">Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+				 
 			  </div>
 		 </div>
 	 </div>
